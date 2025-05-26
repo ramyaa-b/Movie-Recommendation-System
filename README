@@ -1,1 +1,23 @@
 MOVIE RECOMMENDATION SYSTEM
+A simple and interactive Movie Recommendation System built using Random Forest, Streamlit, and developed in PyCharm. This app recommends 5 similar movies based on a movie selected by the user.
+
+
+Features
+
+ Recommends top 5 similar movies using content-based filtering.
+ Uses Random Forest Classifier for modeling.
+ Built with Streamlit for a responsive and easy-to-use UI.
+ Developed and tested using PyCharm IDE.
+
+
+
+How It Works
+
+1. Movie features (like genre, actors, keywords, etc.) are extracted.
+2. A Random Forest model learns the similarity between movies.
+3. Given a movie title, the app finds 5 most similar movies based on learned features.
+
+
+
+
+
